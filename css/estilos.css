@@ -3,6 +3,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 
+
 }
 .icon-menu{
     margin-top: 10px;
@@ -159,6 +160,7 @@ width: 290px;
         justify-content: space-around;
      }
 }
+/*--------------tablet--vertical----------------------*/
 @media (min-width: 768px){
     header{
         height: auto;
@@ -178,29 +180,43 @@ width: 290px;
         margin-top: 30px;
         width: 350px;
         margin-left: 0;
-        margin-bottom:70px;
     }
     .contenedor-mini{
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .bottom-portada{
+        margin-top: 35px;
+    }
+  
     .titulo{
     margin-right: 50px;
     margin-top: 70px;
     }
     .titulo h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     .titulo h3{
-        font-size:35px;
+        margin-top: 30px;
+        font-size:33px;
     }
     .portada a {
 
         font-size: 20px;
     }
+    /*--------sobremi--------------*/
+    .sobre-mi{
+        height: auto;
+    }
+    .sobre-mi h2{
+        height: auto;
+
+    }
     .contenedor-sobre-mi{
-        margin-top: 0;
+        margin-top: 20px;
+        width: 700px;
         -webkit-flex-direction: row-reverse; 
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -209,8 +225,15 @@ width: 290px;
     .contenido p{
         padding: 0;
         text-align: left;
-        font-size: 20px;
+        font-size: 25px;
         width: 360px;
+        margin-left: 0;
+    }
+    .imagen-sobremi img{
+        width: 200px;
+    }
+    .imagen-sobremi #web{
+        width: 100px;
     }
  
 
