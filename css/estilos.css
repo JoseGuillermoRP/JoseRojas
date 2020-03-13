@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-
-
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 .icon-menu{
     margin-top: 10px;
@@ -44,6 +46,10 @@ header{
     border-bottom:solid 2px #E40C15;
     
 }
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
 /*-----portada-----*/
 .contenedor-mini img{
    padding-top: 50px;
@@ -64,7 +70,7 @@ header{
     margin-top: 35px;
 }
 .titulo h3{
-    margin-top: 30px;
+    margin-top: 40px;
     font-weight: 500;
     font-size: 28.3px;
 }
@@ -241,6 +247,9 @@ width: 290px;
   
 /*-----------pantalla completa----------*/
 @media (min-width: 1024px){
+    .contenedor{
+        width: 90%;
+    }
         .icon-menu{
            display: none;
         }
@@ -259,23 +268,25 @@ width: 290px;
         .contenedor-mini{
             text-align: center;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
         }
         .portada{
             margin-top: 40px;
             height: 95vh;
-            justify-content: space-between;
+          
         }
         .portada img{
-            width: 500px; 
-            margin-left: 50px;  
+            margin-top: 100px;
+            width: 508px; 
+            
          
         }
     
         #menu a {
+          padding-top: 20px;
             border: none;
-            font-size: 20px;
+            font-size: 17px;
         }
         #menu a:hover{
             color: #000;
@@ -285,15 +296,18 @@ width: 290px;
             float: left;
         }
         .titulo h1{
-            font-size: 50px;
-            margin-top: 30px;
+            font-size: 90px;
+            margin-top: 70px;
             opacity:0.7;
+            margin-right: 50px;
         }
         .titulo h3{
-            font-size: 35px;
+            font-size: 40px;
+            text-align: left;
+            margin-left: 60px;
         }
         .bottom-portada{
-            margin-top: 55px;
+            margin-top: 100px;
         }
         .bottom-portada a{
             
