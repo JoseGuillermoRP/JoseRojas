@@ -239,6 +239,7 @@ width: 290px;
 
 }
   
+/*-----------pantalla completa----------*/
 @media (min-width: 1024px){
         .icon-menu{
            display: none;
@@ -246,9 +247,10 @@ width: 290px;
         header{
             top: 0;
             height: 40px;
-            padding: 0px;
+           
         }
         header .menu {
+            
             margin-top: 0;
             display: flex;
             float: right;
@@ -262,17 +264,18 @@ width: 290px;
         }
         .portada{
             margin-top: 40px;
-            height: 90vh;
+            height: 95vh;
+            justify-content: space-between;
         }
         .portada img{
-            width: 550px; 
+            width: 500px; 
             margin-left: 50px;  
-            margin-bottom: 100px; 
+         
         }
     
         #menu a {
             border: none;
-            
+            font-size: 20px;
         }
         #menu a:hover{
             color: #000;
@@ -280,22 +283,34 @@ width: 290px;
         }
         .titulo{
             float: left;
-           
-
         }
         .titulo h1{
-            font-size: 90px;
+            font-size: 50px;
             margin-top: 30px;
             opacity:0.7;
         }
         .titulo h3{
-            font-size: 45px;
+            font-size: 35px;
         }
-        .portada a{
+        .bottom-portada{
+            margin-top: 55px;
+        }
+        .bottom-portada a{
             
-            font-size: 30px;
+            font-size: 25px;
             padding: 15px 80px;
            
+        }
+        .sobre-mi{
+            width: 100%;
+            
+        }
+        .contenedor-sobre-mi{
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        .contenedor-sobre-mi .contenido{
+            margin-right: 60px;
         }
         
 }
