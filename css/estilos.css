@@ -17,6 +17,7 @@ body{
     
 }
 header{
+    display: block;
     position: fixed;
     margin-top: 0;
     width: 100%;
@@ -47,6 +48,7 @@ header{
     
 }
 .contenedor{
+
     width: 98%;
     margin: auto;
 }
@@ -55,7 +57,7 @@ header{
    padding-top: 50px;
     width: 300px;
     display: block;
-   margin: auto;
+ 
 }
 
 .portada{
@@ -248,7 +250,8 @@ width: 290px;
 /*-----------pantalla completa----------*/
 @media (min-width: 1024px){
     .contenedor{
-        width: 90%;
+        width: 1300px;
+        margin: auto;
     }
         .icon-menu{
            display: none;
@@ -265,6 +268,15 @@ width: 290px;
             float: right;
             margin-right: 12px;
         }
+        #menu a {
+            padding-top: 20px;
+              border: none;
+              font-size: 17px;
+          }
+          #menu a:hover{
+              color: #000;
+          
+          }
         .contenedor-mini{
             text-align: center;
             display: flex;
@@ -273,25 +285,16 @@ width: 290px;
         }
         .portada{
             margin-top: 40px;
-            height: 95vh;
+            height: 105vh;
+           
           
         }
         .portada img{
             margin-top: 100px;
-            width: 508px; 
-            
-         
+            width: 508px;  
         }
     
-        #menu a {
-          padding-top: 20px;
-            border: none;
-            font-size: 17px;
-        }
-        #menu a:hover{
-            color: #000;
-        
-        }
+   
         .titulo{
             float: left;
         }
@@ -299,7 +302,7 @@ width: 290px;
             font-size: 81px;
             margin-top: 70px;
             opacity:0.7;
-            margin-right: 50px;
+       
            
         }
         .titulo h3{
@@ -309,17 +312,19 @@ width: 290px;
         }
         .bottom-portada{
             margin-top: 100px;
+            width: 100%;
+            height: auto;
         }
         .bottom-portada a{
-            
+            text-align: center;
             font-size: 25px;
             padding: 15px 80px;
            
         }
-        .sobre-mi{
-            width: 100%;
-            
-        }
+        /*----------sobre mi -------------*/
+       .sobre-mi h2{
+           font-size: 50px;
+       }
         .contenedor-sobre-mi{
             width: 100%;
             justify-content: space-evenly;
@@ -327,5 +332,7 @@ width: 290px;
         .contenedor-sobre-mi .contenido{
             margin-right: 60px;
         }
-        
+        .contenido{
+            width: 255px;
+        }
 }
