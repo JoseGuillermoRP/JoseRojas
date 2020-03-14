@@ -231,7 +231,12 @@ width: 290px;
          margin-top: 10px;
      }
      /*--------certificaciones------------*/
-   
+   .contenedor-certificaciones{
+       flex-wrap: nowrap;
+   }
+   .contenedor-certificaciones img{
+       width: 200px;
+   }
      
 }
 /*--------------tablet--vertical----------------------*/
