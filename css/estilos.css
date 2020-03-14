@@ -171,7 +171,8 @@ width: 290px;
 }
 .contenedor-certificaciones img{
     margin-top: 30px;
-    width: 310px;
+    width: 100%;
+    height: auto;
 }
 
 /*-------------Celular horizontal-----------------*/
