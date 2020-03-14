@@ -167,12 +167,14 @@ width: 290px;
 .contenedor-certificaciones{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
     
 }
 .contenedor-certificaciones img{
-    margin-top: 30px;
-    width: 100%;
-    height: auto;
+    display: block;
+    width: 310px;
+    margin: auto;
+   
 }
 
 /*-------------Celular horizontal-----------------*/
