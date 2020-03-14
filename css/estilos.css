@@ -173,6 +173,7 @@ width: 290px;
     align-items: center;
 }
 .contenedor-certificaciones img{
+    margin-top: 10px;
     width: 100%;
 }
 
