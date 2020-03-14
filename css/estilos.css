@@ -130,6 +130,34 @@ width: 290px;
     width: 57px;
     margin-right: 10px;
 }
+/*---------Premios---------------*/
+.premio h2{
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+ 
+}
+.premio1 p{
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-premio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedor-premio img{
+    width: 100%;
+}
+.premio2 img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    
+}
 /*-------------Celular horizontal-----------------*/
 @media(min-width: 480px){
 
@@ -162,7 +190,7 @@ width: 290px;
          margin-top: 10px;
      }
      .sobre-mi{
-        height: 320px;
+        height: auto;
      }
      .sobre-mi h2{
          margin-top: 15px;
@@ -172,6 +200,15 @@ width: 290px;
          -webkit-flex-direction: row-reverse; 
         flex-direction: row-reverse;
         justify-content: space-around;
+     }
+     /*---------Premio----*/
+     .premio{
+         margin-top: 30px;
+         height: auto;
+     }
+     .contenedor-premio{
+         flex-wrap: nowrap;
+         margin-top: 10px;
      }
 }
 /*--------------tablet--vertical----------------------*/
@@ -249,8 +286,10 @@ width: 290px;
     .imagen-sobremi #web{
         width: 100px;
     }
- 
-
+ /*-----PREMIO-------*/
+.premio1,.premio2{
+    width: 50%;
+}
 }
   
 /*-----------pantalla completa----------*/
@@ -328,6 +367,9 @@ width: 290px;
            
         }
         /*----------sobre mi -------------*/
+        .sobre-mi{
+            height: 105vh;
+        }
        .sobre-mi h2{
            font-size: 50px;
        }
@@ -341,4 +383,28 @@ width: 290px;
         .contenido{
             width: 255px;
         }
+        /*---------premio--------------------*/
+        .premio{
+            height: 105vh;
+        }
+        .premio h2{
+            font-size: 50px;
+        }
+        .contenedor-premio{
+            margin-top: 40px;
+
+        }
+        
+        .premio1 img{
+            display: block;
+            width: 500px;
+            margin: auto;
+        
+        }
+        .premio1 p{
+            font-size: 30px;
+            width: 500px;
+            margin: auto;
+        }
+
 }
