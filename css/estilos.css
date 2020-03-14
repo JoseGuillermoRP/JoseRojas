@@ -56,10 +56,8 @@ header{
 .contenedor-mini img{
    padding-top: 50px;
     width: 300px;
-    display: block;
- 
+    display: block; 
 }
-
 .portada{
     text-align: center;
     height: 588px;
@@ -72,12 +70,12 @@ header{
     margin-top: 35px;
 }
 .titulo h3{
-    margin-top: 40px;
+    margin-top: 30px;
     font-weight: 500;
     font-size: 28.3px;
 }
 .bottom-portada{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -142,12 +140,12 @@ width: 290px;
         display: flex;
     }
     .contenedor-mini img{
-        margin-top: 30px;
+        margin-top: 20px;
         width: 220px;  
 
      }
      .titulo{
-         margin-top: 120px;
+         margin-top: 110px;
          margin-left: 10px;
      }
      .titulo h1{
@@ -161,7 +159,7 @@ width: 290px;
      }
      .bottom-portada {
         
-         margin-top: 20px;
+         margin-top: 10px;
      }
      .sobre-mi{
         height: 320px;
