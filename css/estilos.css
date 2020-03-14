@@ -319,7 +319,9 @@ width: 290px;
     width: 50%;
 }
 /*--------------CERTIFICACIONES------------------*/
-
+.contenedor-certificaciones img{
+    width: 230px;
+}
 }
   
 /*-----------pantalla completa----------*/
@@ -360,7 +362,7 @@ width: 290px;
         }
         .portada{
             margin-top: 40px;
-            height: 105vh;
+            height: 100vh;
            
           
         }
@@ -398,7 +400,7 @@ width: 290px;
         }
         /*----------sobre mi -------------*/
         .sobre-mi{
-            height: 105vh;
+            height: 100vh;
         }
        .sobre-mi h2{
            font-size: 50px;
@@ -415,7 +417,7 @@ width: 290px;
         }
         /*---------premio--------------------*/
         .premio{
-            height: 105vh;
+            height: auto;
         }
         .premio h2{
             font-size: 50px;
@@ -437,5 +439,13 @@ width: 290px;
             margin: auto;
         }
         /*-------------Certificaciones-----------------*/
-      
+        .certificaciones h2{
+            font-size: 50px;
+        }
+        .contenedor-certificaciones{
+            margin-top: 20px;
+        }
+        .contenedor-certificaciones img{
+            width: 400px;
+        }
 }
