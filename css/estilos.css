@@ -159,26 +159,23 @@ width: 290px;
     
 }
 /*-------------Certificaciones----------------*/
-.certificaciones{
-    height: auto;
-}
 .certificaciones h2{
-  margin-top: 30px;
-    text-align: center;
+    margin-top: 30px;
     font-size: 35px;
+    text-align: center;
+ 
 }
 .contenedor-certificaciones{
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 10px;
-    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .contenedor-certificaciones img{
-    display: block;
-    width: 310px;
-    margin: auto;
-   
+    width: 100%;
 }
+
 
 /*-------------Celular horizontal-----------------*/
 @media(min-width: 480px){
@@ -233,17 +230,8 @@ width: 290px;
          margin-top: 10px;
      }
      /*--------certificaciones------------*/
-     .certificaciones h2{
-         font-size: 35px;
-     }
-     .contenedor-certificaciones{
-         margin-top: 30px;
-     }
-     .contenedor-certificaciones img{
-        width: 400px;
-        margin: auto;
-        padding-bottom: 5px;
-     }
+   
+     
 }
 /*--------------tablet--vertical----------------------*/
 @media (min-width: 768px){
@@ -325,9 +313,7 @@ width: 290px;
     width: 50%;
 }
 /*--------------CERTIFICACIONES------------------*/
-.contenedor-certificaciones img{
-    width: 230px;
-}
+
 }
   
 /*-----------pantalla completa----------*/
@@ -445,17 +431,5 @@ width: 290px;
             margin: auto;
         }
         /*-------------Certificaciones-----------------*/
-         .certificaciones{
-            
-         }
-         .certificaciones h2{
-            font-size: 50px;
-         }
-         .contenedor-certificaciones{
-             margin-top: 40px;
-         }
-         
-         .contenedor-certificaciones img{
-             width: 325px;
-         }
+      
 }
