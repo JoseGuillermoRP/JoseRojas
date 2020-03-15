@@ -497,7 +497,9 @@ width: 290px;
         }
 
         /*---------------portafolio---------------------------*/
-
+.portafolio h2{
+    font-size: 50px;
+}
 .contenedor-portafolio img{
     width: 403px;
 }
