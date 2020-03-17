@@ -205,7 +205,7 @@ width: 290px;
     text-align: center;
     font-size: 35px;
 }
-.contenedor-contactanos form{
+.contenedor-contactanos {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -322,7 +322,10 @@ align-items: center;
 .divisor-formulario input{
     width: 48%;
 }
-
+.contactanos
+{
+    width: 100%;
+}
 }
 /*--------------tablet--vertical----------------------*/
 @media (min-width: 768px){
