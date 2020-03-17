@@ -227,7 +227,7 @@ align-items: center;
 }
 .contenedor-contactanos button{
     margin-top: 30px;
-    width: 350px;
+    width: 100%;
     height: 40px;
     border-radius:20px;
     background: -webkit-linear-gradient(left,#E40C15 20%,#72060B);
