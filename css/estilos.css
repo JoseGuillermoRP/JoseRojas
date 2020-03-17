@@ -310,6 +310,19 @@ align-items: center;
         width: 100px;
         
     }
+    /*-----------Contactanos---------------------*/
+
+
+.divisor-formulario{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.divisor-formulario input{
+    width: 48%;
+}
+
 }
 /*--------------tablet--vertical----------------------*/
 @media (min-width: 768px){
