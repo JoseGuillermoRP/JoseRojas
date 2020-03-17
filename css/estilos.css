@@ -193,6 +193,7 @@ width: 290px;
     margin-top: 10px;
     width: 100%;
 }
+/*-----------Contactanos---------------------*/
 .contactanos
 {
 
@@ -200,7 +201,9 @@ width: 290px;
 
 }
 .contactanos h2{
+    margin-top: 15px;
     text-align: center;
+    font-size: 35px;
 }
 .contenedor-contactanos form{
 display: flex;
@@ -215,21 +218,22 @@ align-items: center;
     border-top: none;
     border-left: none;
     border-right: none;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 23px;
+    margin-top: 20px;
     
 }
 .divisor-formulario{
     width: 100%;
 }
 .contenedor-contactanos button{
-    margin-top: 20px;
-    width: 200px;
-    height: 20px;
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
     border-radius:20px;
     background: -webkit-linear-gradient(left,#E40C15 20%,#72060B);
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 /*-------------Celular horizontal-----------------*/
