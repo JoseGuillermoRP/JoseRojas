@@ -508,7 +508,7 @@ align-items: center;
         }
         header{
             top: 0;
-            height: 40px;
+            height: 60px;
            
         }
         header .menu {
@@ -522,6 +522,7 @@ align-items: center;
             padding-top: 20px;
               border: none;
               font-size: 17px;
+              background: none;
           }
           #menu a:hover{
               color: #000;
